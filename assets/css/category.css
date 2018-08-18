@@ -67,7 +67,6 @@
 .category_pager .sort_btn a {
     width: 136px;
     height: 52px;
-    display: inline-block;
     float: left;
     text-align: center;
     border: 1px solid #bbb;
