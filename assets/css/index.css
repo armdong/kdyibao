@@ -1,0 +1,680 @@
+.homepage {
+    width: 100%;
+}
+.homepage__banner {
+    width: 100%;
+    height: 480px;
+    background-size: cover;
+    background: url("../imgs/main_banner.png") no-repeat center center;
+}
+.homepage__banner .wrapper {
+    width: 1192px;
+    height: 480px;
+    margin: 0 auto;
+}
+.homepage__banner .sidebar {
+    position: relative;
+    width: 182px;
+    height: 480px;
+    margin-left: auto;
+    background-color: #fff;
+}
+.homepage__banner .entry {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding-top: 14px;
+    background-color: #096;
+    color: #fff;
+}
+.homepage__banner .message {
+    width: 100%;
+}
+.homepage__banner .message .img {
+    float: left;
+    width: 34px;
+    height: 34px;
+    margin-left: 15px;
+    background-color: #fff;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.homepage__banner .message img {
+    width: 100%;
+}
+.homepage__banner .message .text {
+    float: left;
+    margin-left: 10px;
+}
+.homepage__banner .message .text h2 {
+    font-size: 16px;
+    font-weight: normal;
+}
+.homepage__banner .message .text p {
+    font-size: 14px;
+}
+.homepage__banner .entry ul {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+}
+.homepage__banner .entry li {
+    float: left;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.homepage__banner .entry a {
+    color: inherit;
+}
+.homepage__banner .guide {
+    width: 100%;
+    padding: 10px 0;
+    overflow: hidden;
+    border-bottom: 1px dashed #0c6;
+}
+.homepage__banner .guide dt {
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.homepage__banner .guide dt a {
+    float: right;
+    display: inline-block;
+    color: #666;
+    font-size: 12px;
+}
+.homepage__banner .guide dd {
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 24px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.homepage__banner .platform {
+    width: 180px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.homepage__banner .platform .title {
+    padding: 10px 0;
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+}
+.homepage__banner .platform .title span {
+    display: inline-block;
+    position: relative;
+}
+.homepage__banner .platform .title span:before,
+.homepage__banner .platform .title span:after {
+    position: absolute;
+    top: 0;
+    display: block;
+    content: '';
+    width: 14px;
+    height: 16px;
+    background: url('../imgs/platform_title_bg.png') no-repeat center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+.homepage__banner .platform .title span:before {
+    left: -29px;
+}
+.homepage__banner .platform .title span:after {
+    right: -29px;
+}
+.homepage__banner .platform ul {
+    width: 100%;
+}
+.homepage__banner .platform li {
+    float: left;
+    width: 60px;
+    padding: 10px 0;
+    font-size: 12px;
+    text-align: center;
+}
+.homepage__banner .platform .img {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto 5px;
+    background: no-repeat center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+.homepage__banner .platform .zlbz {
+    background-image: url('../imgs/icon_zlbz.png');
+}
+.homepage__banner .platform .zskf {
+    background-image: url('../imgs/icon_service.png');
+}
+.homepage__banner .platform .hybz {
+    background-image: url('../imgs/icon_hybz.png');
+}
+.homepage__banner .platform .wyth {
+    background-image: url('../imgs/icon_shbz.png');
+}
+.homepage__banner .platform .wtjj {
+    background-image: url('../imgs/icon_problem.png');
+}
+.homepage__banner .platform .zjfw {
+    background-image: url('../imgs/icon_zyfw.png');
+}
+.homepage__banner .platform p {
+    color: #000;
+    font-size: 10px;
+}
+.homepage__banner .service {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.homepage__banner .service .tel,
+.homepage__banner .service .time {
+    float: left;
+    padding: 12px 0;
+    width: 91px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.homepage__banner .service .tel {
+    background-image: url('../imgs/service_tel_bg.png');
+}
+.homepage__banner .service .time {
+    background-image: url('../imgs/service_time_bg.png');
+}
+.homepage__banner .service p {
+    font-size: 12px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+}
+.homepage__services {
+    width: 1192px;
+    margin: 20px auto 0;
+}
+.homepage__services li {
+    float: left;
+    width: 220px;
+    height: 140px;
+}
+.homepage__services li:not(:last-child) {
+    margin-right: 23px;
+}
+.homepage__services a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.homepage__services img {
+    width: 100%;
+}
+.homepage__section {
+    width: 1192px;
+    margin: 20px auto 0;
+}
+.homepage__section > .title {
+    width: 100%;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 30px;
+    color: #333;
+}
+.homepage__section .icon {
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    background-size: contain;
+    background: no-repeat center center;
+}
+.homepage__section .icon-cxzq {
+    background-image: url('../imgs/icon_cxzq_green.png');
+}
+.homepage__section .icon-ylqx {
+    background-image: url('../imgs/icon_ylqx_green.png');
+}
+.homepage__section .icon-cycy {
+    background-image: url('../imgs/icon_cycy_green.png');
+}
+.homepage__section .icon-mjyf {
+    background-image: url('../imgs/icon_mjyf_green.png');
+}
+.homepage__section .icon-yxsp {
+    background-image: url('../imgs/icon_yxsp_green.png');
+}
+.homepage__section .icon-ptsj {
+    background-image: url('../imgs/icon_ptsj_green.png');
+}
+.homepage__section .icon-zyzx {
+    background-image: url('../imgs/icon_zyzx_green.png');
+}
+.homepage__section > .content {
+    width: 100%;
+    margin-top: 15px;
+}
+.homepage__section .promotion-area {
+    width: 1190px;
+    margin: 0 auto;
+}
+.homepage__section .promotion-area li {
+    float: left;
+    width: 230px;
+    height: 350px;
+}
+.homepage__section .promotion-area li:not(:last-child) {
+    margin-right: 10px;
+}
+.homepage__section .promotion-area a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.homepage__section .promotion-area img {
+    width: 100%;
+}
+.homepage__ad {
+    display: block;
+    width: 1182px;
+    height: 158px;
+    margin: 30px auto 0;
+}
+.homepage__ad img {
+    width: 100%;
+}
+.homepage__section .normal-content {
+    width: 1190px;
+    margin: 0 auto;
+    border-top: 1px solid #d9d9d9;
+    border-left: 1px solid #d9d9d9;
+}
+
+.homepage__section .normal-content .top {
+    width: 100%;
+}
+.homepage__section .normal-content li {
+    float: left;
+    width: 238px;
+    margin-left: -1px;
+    border-right: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    overflow: hidden;
+}
+.homepage__section .normal-content li.big {
+    position: relative;
+    width: 714px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background: no-repeat center center;
+}
+.homepage__section .normal-content .top li {
+    height: 334px;
+}
+.homepage__section .normal-content .bottom li {
+    height: 238px;
+}
+.homepage__section .normal-content li.big img {
+    width: 100%;
+    height: 100%;
+}
+.homepage__section .normal-content .big-mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.homepage__section .normal-content .mask-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 370px;
+    height: 220px;
+    margin: -110px 0 0 -185px;
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    outline: 2px solid rgba(255, 255, 255, 0.6);
+    outline-offset: 10px;
+}
+.homepage__section .normal-content .mask-wrapper h2 {
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #333;
+}
+.homepage__section .normal-content .mask-wrapper p {
+    margin-top: 20px;
+    font-size: 26px;
+    line-height: 30px;
+    color: #f00;
+}
+.homepage__section .normal-content .mask-wrapper a {
+    display: block;
+    width: 134px;
+    height: 38px;
+    margin: 20px auto 0;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    color: #fff;
+    background-color: #666;
+}
+.homepage__section .normal-content .big:hover .big-mask {
+    display: block;
+}
+.homepage__section .normal-content .top .title {
+    margin-top: 30px;
+    padding: 0 20px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #333;
+    font-weight: 500;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.homepage__section .normal-content .top .title span {
+    margin: 20px;
+}
+.homepage__section .normal-content .top .desc {
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #f00;
+}
+.homepage__section .normal-content .top .product {
+    display: block;
+    position: relative;
+    width: 194px;
+    height: 194px;
+    margin: 10px auto 0;
+}
+.homepage__section .normal-content .top .product a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.homepage__section .normal-content .top .product img {
+    width: 100%;
+}
+.homepage__section .normal-content .top .price {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #f00;
+    text-align: center;
+    line-height: 74px;
+    font-size: 30px;
+}
+.homepage__section .normal-content .top .price span {
+    font-size: 20px;
+}
+.homepage__section .normal-content .bottom .product {
+    display: block;
+    width: 152px;
+    height: 152px;
+    margin: 0 auto;
+}
+.homepage__section .normal-content .bottom .product img {
+    width: 100%;
+}
+.homepage__section .normal-content .bottom .title {
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+    font-weight: 400;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.homepage__section .normal-content .bottom .price {
+    font-size: 22px;
+    line-height: 30px;
+    color: #f00;
+    text-align: center;
+}
+.homepage__section .medical-videos {
+    width: 1192px;
+    margin: 0 auto;
+}
+.homepage__section .medical-videos li {
+    float: left;
+    width: 296px;
+    height: 370px;
+    border: 1px solid #d9d9d9;
+}
+.homepage__section .medical-videos li:not(:first-child) {
+    margin-left: -1px;
+}
+.homepage__section .medical-videos .img {
+    display: block;
+    width: 278px;
+    height: 225px;
+    margin: 13px auto 0;
+}
+.homepage__section .medical-videos .img img {
+    width: 100%;
+}
+.homepage__section .medical-videos .text {
+    width: 238px;
+    margin: 20px auto 0;
+    font-size: 16px;
+    line-height: 30px;
+}
+.homepage__section .medical-videos .title {
+    color: #333;
+    font-size: 16px;
+}
+.homepage__section .medical-videos .ext span {
+    display: inline-block;
+    color: #666;
+}
+.homepage__section .medical-videos .number {
+    float: left;
+}
+.homepage__section .medical-videos .teacher {
+    float: right;
+}
+.homepage__section .medical-videos .cost {
+    font-size: 14px;
+    line-height: 30px;
+    color: #f00;
+}
+.homepage__section .platform {
+    width: 1192px;
+    margin: 0 auto;
+}
+.homepage__section .platform > li {
+    float: left;
+    width: 592px;
+    height: 344px;
+    margin: 5px 0 5px 4px;
+}
+.homepage__section .platform .title {
+    width: 592px;
+    height: 64px;
+    overflow: hidden;
+}
+.homepage__section .platform .title img {
+    width: 100%;
+}
+.homepage__section .platform .content {
+    width: 100%;
+}
+.homepage__section .platform .content li {
+    float: left;
+    width: 196px;
+    height: 222px;
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+}
+.homepage__section .platform .content li:not(:first-child) {
+    margin-left: -1px;
+}
+.homepage__section .platform .content a {
+    display: block;
+    width: 152px;
+    height: 152px;
+    margin: 0 auto;
+}
+.homepage__section .platform .content img {
+    width: 100%;
+}
+.homepage__section .platform .content .name {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.homepage__section .platform .content .price {
+    text-align: center;
+    line-height: 24px;
+}
+.homepage__section .platform .content .current {
+    font-size: 16px;
+    color: #f00;
+}
+.homepage__section .platform .content .original {
+    font-size: 14px;
+    color: #666;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+.homepage__section .platform .footer {
+    width: 550px;
+    height: 36px;
+    padding: 10px 20px;
+    border: 1px solid #d9d9d9;
+}
+.homepage__section .platform .footer p {
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    line-height: 36px;
+    color: #f00;
+}
+.homepage__section .platform .footer a {
+    display: block;
+    float: right;
+    width: 114px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    color: #0cb95f;
+    border: 2px solid #0cb95f;
+    border-radius: 18px;
+}
+.homepage__section .chinese-doctors {
+    width: 1192px;
+    margin: 0 auto;
+}
+.homepage__section .chinese-doctors li {
+    float: left;
+    width: 296px;
+    height: 465px;
+    border: 1px solid #d9d9d9;
+    text-align: center;
+}
+.homepage__section .chinese-doctors li:not(:first-child) {
+    margin-left: -1px;
+}
+.homepage__section .chinese-doctors .avatar {
+    width: 120px;
+    height: 120px;
+    margin: 40px auto 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.homepage__section .chinese-doctors .avatar img {
+    width: 100%;
+}
+.homepage__section .chinese-doctors .title {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+}
+.homepage__section .chinese-doctors .score {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #666;
+}
+.homepage__section .chinese-doctors .contact {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+}
+.homepage__section .chinese-doctors .contact span {
+    color: #f00;
+}
+.homepage__section .chinese-doctors .chat {
+    display: block;
+    width: 218px;
+    height: 58px;
+    margin: 20px auto 0;
+    border: 1px solid #0cb95f;
+    border-radius: 30px;
+    line-height: 58px;
+    text-align: center;
+    font-size: 22px;
+    color: #0cb95f;
+}
+.homepage__section .chinese-doctors .detail {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+}
+.homepage__hongbao {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    z-index: 1001;
+    width: 131px;
+    height: 150px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background: url('../imgs/hongbao.png') no-repeat center center;
+}
+.homepage__hongbao .close {
+    display: block;
+    position: absolute;
+    top: -5px;
+    right: -15px;
+    width: 26px;
+    height: 26px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background: url('../imgs/icon_close.png') no-repeat center center;
+    cursor: pointer;
+}
