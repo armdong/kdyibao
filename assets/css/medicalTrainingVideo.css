@@ -1,0 +1,81 @@
+.medicalTrainingVideo {
+    width: 1192px;
+    margin: 20px auto 4px;
+}
+.video_wrap {
+    width: 1192px;
+    height: 480px;
+    background: #f1f1f1;
+}
+.medicalTrainingVideo .title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    line-height: 60px;
+}
+.training_content {
+    width: 1192px;
+    height: 344px;
+    overflow: hidden;
+}
+.training_content .list {
+    width: 276px;
+    height: 322px;
+    overflow: hidden;
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+    border-right: none;
+    float: left;
+}
+.training_content .list:nth-of-type(4n) {
+    float: left;
+    border-right: 1px solid #d9d9d9;
+}
+.training_content .list:last-of-type {
+    float: left;
+    border-right: 1px solid #d9d9d9;
+}
+.training_content .avatar {
+    width: 276px;
+    height: 224px;
+    display: block;
+}
+.training_content .avatar img {
+    width: 100%;
+    height: 100%;
+}
+.training_content .name {
+    font-size: 20px;
+    line-height: 40px;
+    color: #000;
+}
+.training_content .medical_intr {
+    line-height: 20px;
+    height: 20px;
+}
+.training_content .medical_intr span:first-of-type{
+    width: 148px;
+    display: inline-block;
+}
+.training_content .btn_free {
+    text-align: left;
+    display: block;
+    color: #f00;
+    margin: 10px 0;
+}
+.medicalTrainingVideo .course_intr {
+    font-size: 16px;
+    width: 1190px;
+    border: 1px solid #d9d9d9;
+    padding: 26px;
+}
+.medicalTrainingVideo .course_intr .name {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    padding-bottom: 10px;
+}
+.medicalTrainingVideo .course_intr .interval {
+    margin-bottom: 30px;
+    line-height: 30px;
+}
