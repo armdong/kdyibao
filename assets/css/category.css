@@ -1,0 +1,129 @@
+.category {
+    width: 1192px;
+    margin: 20px auto;
+}
+.category_header {
+    width: 1188px;
+    border: 2px solid #eee;
+}
+.category_header .title {
+    height: 70px;
+    line-height: 70px;
+    padding: 0 12px;
+    background: #f6f6f6;
+    border-bottom: 2px solid #eee;
+}
+.category_header .title .left {
+    width: 118px;
+    display: inline-block;
+    font-size: 16px;
+}
+.category_header .title .select2 {
+    width: 120px;
+}
+.category_header .list {
+    width: 1164px;
+    margin: 0 auto;
+    line-height: 80px;
+    overflow: hidden;
+    border-bottom: 1px dashed #eee;
+}
+.category_header .list:last-of-type {
+    border-bottom: none;
+}
+.category_header .list .left {
+    font-size: 16px;
+    width: 118px;
+    float: left;
+}
+.category_header .list ul {
+    font-size: 18px;
+    width: 928px;
+    float: left;
+}
+.category_header .list ul li {
+    float: left;
+    margin-right: 60px;
+}
+.category_header .list .select2 {
+    width: 80px;
+    float: left;
+    margin-top: 26px;
+}
+.category_pager {
+    width: 1192px;
+    height: 54px;
+    background: #f7f7f7;
+    margin: 35px 0;
+    line-height: 54px;
+    font-size: 18px;
+}
+.category_pager span {
+    display: inline-block;
+}
+.category_pager .sort_btn {
+    float: left;
+    width: 276px;
+}
+.category_pager .sort_btn a {
+    width: 136px;
+    height: 52px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    border: 1px solid #bbb;
+}
+.category_pager .sort_btn a.active,.category_pager .sort_btn a:hover {
+    border: 1px solid #0cb95f;
+    background: #0cb95f;
+    color: #fff;
+}
+.category_pager .pager {
+    width: 242px;
+    float: right;
+    margin-right: 25px;
+}
+.category_pager .pager .total {
+    color: #f00;
+    width: 96px;
+}
+.category_pager .pager .page_number {
+    color: #909090;
+    font-weight: bold;
+}
+.category_pager .pager button {
+    width: 30px;
+    height: 36px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    color: #0cb95f;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.category_wraps {
+    width: 1192px;
+    text-align: center;
+    overflow: hidden;
+}
+.category_wraps .expert_recommend {
+    width: 250px;
+    float: left;
+}
+.expert_recommend .title {
+    width: 248px;
+    height: 58px;
+    line-height: 58px;
+    background: #f5f5f5;
+    border: 1px solid #d9d9d9;
+    font-size: 22px;
+}
+
+
+
+.category_wraps .expert_content {
+    width: 892px;
+    float: right ;
+}
+
+
+
