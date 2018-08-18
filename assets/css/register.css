@@ -1,0 +1,155 @@
+.registerpage {
+  width: 100%;
+}
+.registerpage .form-wrapper {
+  width: 1192px;
+  margin: 0 auto; 
+}
+.registerpage .form {
+  width: 1190;
+  margin: 30px 0;
+  border: 1px solid #d9d9d9;
+}
+.registerpage .reg-types {
+  width: 100%;
+  border-bottom: 1px solid #d9d9d9;
+}
+.registerpage .reg-types li {
+  float: left;
+  width: 396px;
+  height: 94px;
+  border-left: 1px solid #d9d9d9;
+  text-align: center;
+  font-size: 28px;
+  line-height: 94px;
+  color: #666;
+  cursor: pointer;
+}
+.registerpage .reg-types li.active {
+  background-color: #0cb95f;
+  color: #fff;
+  cursor: default;
+  margin-left: -1px;
+}
+.registerpage .reg-conts {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.registerpage .reg-conts > li {
+  display: none;
+}
+.registerpage .reg-conts > li.active {
+  display: block;
+}
+.registerpage .reg-conts .title {
+  height: 68px;
+  padding-left: 80px;
+  font-size: 22px;
+  color: #333;
+  line-height: 68px;
+  background-color: #f6f6f6;
+}
+.registerpage .reg-conts .content {
+  width: 100%;
+  padding: 25px 0;
+  background-color: #fff;
+}
+.registerpage .reg-conts .content p {
+  padding: 15px 80px;
+}
+.registerpage .reg-conts .content p .name {
+  float: left;
+  width: 150px;
+  line-height: 58px;
+  font-size: 20px;
+  color: #000;
+}
+.registerpage .reg-conts .content p .name i {
+  font-style: normal;
+  margin-right: 5px;
+  color: #f00;
+}
+.registerpage .reg-conts .content p input {
+  float: left;
+  width: 440px;
+  height: 56px;
+  padding: 0 10px;
+  margin-left: 10px;
+  line-height: 56px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  font-size: 20px;
+}
+.registerpage .reg-conts .content p input.small {
+  width: 200px;
+}
+.registerpage .reg-conts .content p .desc {
+  float: left;
+  margin-left: 60px;
+  line-height: 58px;
+  font-size: 18px;
+  color: #666;
+}
+.registerpage .reg-conts .content p .img {
+  display: block;
+  float: left;
+  width: 150px;
+  height: 56px;
+  margin-left: 80px;
+  border: 1px solid #d9d9d9;
+  background-color: #f6f6f6;
+}
+.registerpage .reg-conts .content p .btn-mobilecode {
+  display: block;
+  float: left;
+  width: 150px;
+  height: 56px;
+  margin-left: 80px;
+  text-align: center;
+  line-height: 56px;
+  border: 1px solid #d9d9d9;
+  background-color: #f6f6f6;
+  font-size: 20px;
+}
+.registerpage .reg-conts .content p .protocol {
+  position: relative;
+  padding-left: 30px;
+  margin-left: 10px;
+  line-height: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #999;
+}
+.registerpage .reg-conts .content p .protocol i {
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: 0;
+  margin-top: -10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.registerpage .reg-conts .content p .protocol i.checked {
+  background-image: url('../imgs/icon_checked.png');
+}
+.registerpage .reg-conts .content p .protocol i.uncheck {
+  background-image: url('../imgs/icon_uncheck.png');
+}
+.registerpage .reg-conts .content p .protocol-link {
+  color: #1dbe6a;
+  font-size: 20px;
+}
+.registerpage .reg-conts .content .btn-reg {
+  display: block;
+  width: 460px;
+  height: 64px;
+  margin-left: 240px;
+  background-color: #0cb95f;
+  color: #fff;
+  text-align: center;
+  line-height: 64px;
+  font-size: 24px;
+}
