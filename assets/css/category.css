@@ -63,7 +63,6 @@
 }
 .category_pager .sort_btn {
     float: left;
-    width: 276px;
 }
 .category_pager .sort_btn a {
     width: 136px;
@@ -73,13 +72,19 @@
     text-align: center;
     border: 1px solid #bbb;
 }
+.category_pager .sort_btn .sales, .category_pager .sort_btn .price {
+    background: url('../imgs/arrow.png') 96px center no-repeat;
+}
 .category_pager .sort_btn a.active,.category_pager .sort_btn a:hover {
     border: 1px solid #0cb95f;
-    background: #0cb95f;
+    background-color: #0cb95f;
     color: #fff;
 }
+.category_pager .sort_btn .sales:hover, .category_pager .sort_btn .price:hover, .category_pager .sort_btn .sales.active, .category_pager .sort_btn .price.active {
+    background-image: url('../imgs/arrow-white.png');
+}
 .category_pager .pager {
-    width: 242px;
+    width: 260px;
     float: right;
     margin-right: 25px;
 }
@@ -90,6 +95,8 @@
 .category_pager .pager .page_number {
     color: #909090;
     font-weight: bold;
+    width: 70px;
+    text-align: center;
 }
 .category_pager .pager button {
     width: 30px;
@@ -99,6 +106,8 @@
     color: #0cb95f;
     font-weight: bold;
     margin-left: 5px;
+    cursor: pointer;
+    outline: none;
 }
 .category_wraps {
     width: 1192px;
@@ -116,14 +125,98 @@
     background: #f5f5f5;
     border: 1px solid #d9d9d9;
     font-size: 22px;
+    margin-bottom: 15px;
 }
-
+.category_wraps .person {
+    width: 248px;
+    height: 434px;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 16px;
+}
+.category_wraps .person .avatar {
+    margin-top: 42px;
+}
+.category_wraps .person .name {
+    margin: 20px 0;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+}
+.category_wraps .person .score {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #666;
+    overflow: hidden;
+}
+.category_wraps .person .score ul {
+    float: left;
+    margin: 0 4px 0 52px;
+}
+.category_wraps .person .score ul li {
+    float: left;
+    margin-right: 1px;
+}
+.category_wraps .person .score ul li img {
+    margin-top: 4px;
+}
+.category_wraps .person .score p {
+    float: left;
+}
+.category_wraps .person .contact {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+}
+.category_wraps .person .contact span {
+    color: #f00;
+}
+.category_wraps .person .chat {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    margin: 27px auto 22px;
+    background: -webkit-linear-gradient(left, #6dd477, #009c0c);
+    background: -o-linear-gradient(left, #6dd477, #009c0c);
+    background: -moz-linear-gradient(left, #6dd477, #009c0c);
+    background: linear-gradient(left, #6dd477, #009c0c);
+    font-size: 18px;
+    color: #fff;
+}
 
 
 .category_wraps .expert_content {
     width: 892px;
     float: right ;
 }
+.category_wraps .expert_content .person {
+    width: 296px;
+    float: left;
+    border-right: none;
+}
+.category_wraps .expert_content .person:nth-of-type(3n) {
+    float: left;
+    border-right: 1px solid #d9d9d9;
+}
+.category_wraps .expert_content .person:last-of-type {
+    float: left;
+    border-right: 1px solid #d9d9d9;
+}
+.category_wraps .expert_content .person .score ul {
+    float: left;
+    margin: 0 4px 0 76px;
+}
 
-
+/* 医疗设备 */
+.category_wraps .expert_recommend .goods {
+    margin-bottom: 16px;
+}
+.category_wraps .expert_content .goods p {
+    text-align: left;
+    padding:  0 20px;
+}
 
