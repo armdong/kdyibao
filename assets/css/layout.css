@@ -120,6 +120,14 @@ input {
 .layout__header--main .logo img {
     width: 100%;
 }
+.layout__header--main .title {
+    float: left;
+    margin-left: 60px;
+    line-height: 64px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #333;
+}
 .layout__header--main .search {
     float: left;
     width: 530px;
