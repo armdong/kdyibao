@@ -240,7 +240,8 @@ input {
     height: 480px;
     background-color: rgba(0, 0, 0, 0.65);
 }
-.layout__header--main .category-tree .active .sub-category {
+.layout__header--main .category-tree .active .sub-category,
+.layout__header--main .category-tree li:hover .sub-category {
     display: block;
 }
 .layout__header--main .sub-category li {
