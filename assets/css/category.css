@@ -67,7 +67,6 @@
 .category_pager .sort_btn a {
     width: 136px;
     height: 52px;
-    display: inline-block;
     float: left;
     text-align: center;
     border: 1px solid #bbb;
@@ -135,6 +134,11 @@
 }
 .category_wraps .person .avatar {
     margin-top: 42px;
+}
+.category_wraps .person .avatar img {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
 }
 .category_wraps .person .name {
     margin: 20px 0;
@@ -214,9 +218,114 @@
 /* 医疗设备 */
 .category_wraps .expert_recommend .goods {
     margin-bottom: 16px;
+    display: block;
+}
+.category_wraps .expert_recommend .goods img {
+    width: 250px;
+    height: 352px;
+}
+.category_wraps .expert_content .goods .avatar {
+    margin-top: 32px;
+}
+.category_wraps .expert_content .goods .avatar img {
+    width: 204px;
+    height: 188px;
 }
 .category_wraps .expert_content .goods p {
     text-align: left;
     padding:  0 20px;
+    font-size: 16px;
+}
+.category_wraps .expert_content .goods .price {
+    font-size: 30px;
+    color: #f00;
+    margin: 20px 0 10px;
+}
+.category_wraps .expert_content .goods .price span {
+    font-size: 20px;
+}
+.category_wraps .expert_content .goods .intr {
+    line-height: 30px;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.category_wraps .expert_content .goods .btn {
+    width: 146px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    margin: 10px 20px 22px;
+    background: -webkit-linear-gradient(left, #6dd477, #009c0c);
+    background: -o-linear-gradient(left, #6dd477, #009c0c);
+    background: -moz-linear-gradient(left, #6dd477, #009c0c);
+    background: linear-gradient(left, #6dd477, #009c0c);
+    font-size: 18px;
+    color: #fff;
 }
 
+/* 医学培训 */
+.category_wraps .expert_recommend .recommend_video {
+    margin-bottom: 16px;
+}
+.category_wraps .expert_recommend .video_img {
+    display: block;
+}
+.category_wraps .expert_recommend .text {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+}
+.category_wraps .expert_recommend .text li {
+    float: left;
+}
+.category_wraps .expert_recommend .text li:first-of-type {
+    font-size: 20px;
+    color: #000;
+}
+.category_wraps .expert_recommend .text li:last-of-type {
+    font-size: 18px;
+    color: #666;
+    float: right;
+}
+.category_wraps .expert_recommend .text li:last-of-type span {
+    color: #f00;
+}
+.category_wraps .expert_content .medical_goods {
+    height: 370px;
+}
+.category_wraps .expert_content .medical_goods .avatar {
+    padding: 10px;
+    margin-top: 0;
+    width: 276px;
+    height: 249px;
+    display: block;
+}
+.category_wraps .expert_content .medical_goods .avatar img {
+    width: 100%;
+    height: 100%;
+}
+.category_wraps .expert_content .medical_goods .title {
+    font-size: 20px;
+    line-height: 40px;
+    color: #000;
+    padding: 0 10px;
+}
+.category_wraps .expert_content .medical_goods .medical_intr {
+    line-height: 20px;
+    height: 20px;
+    padding: 0 10px;
+}
+.category_wraps .expert_content .medical_goods .medical_intr span:first-of-type{
+    width: 148px;
+    display: inline-block;
+}
+.category_wraps .expert_content .medical_goods .btn_free {
+    text-align: left;
+    display: block;
+    margin: 10px;
+    color: #f00;
+}
