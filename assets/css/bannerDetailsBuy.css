@@ -1,0 +1,97 @@
+.bannerDetailsBuy {
+    width: 100%;
+    background: #dcf8c5;
+}
+.bannerDetailsBuy .banner {
+    width: 100%;
+    min-width: 1192px;
+}
+.bannerDetailsBuy .banner img {
+    width: 100%;
+}
+.banner_wraps {
+    width: 1192px;
+    margin: 0 auto;
+}
+.banner_wraps h3 {
+    width: 774px;
+    height: 59px;
+    margin: 30px auto;
+}
+.banner_wraps .detail_pic {
+    width: 990px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.banner_wraps .detail_goods {
+    width: 990px;
+    margin: 0 auto;
+    padding: 30px 0;
+    overflow: hidden;
+}
+.banner_wraps .detail_goods li {
+    width: 216px;
+    height: 380px;
+    padding: 20px 10px 10px;
+    margin: 0 15px 15px 0;
+    background: #fff;
+    float: left;
+}
+.banner_wraps .detail_goods li:nth-of-type(4n) {
+    margin-right: 0;
+}
+.banner_wraps .detail_goods .pic {
+    text-align: center;
+    height: 230px;
+    border-bottom: 1px dashed #c5c5c5;
+    margin-bottom: 8px;
+}
+.banner_wraps .detail_goods li .pic img {
+    width: 208px;
+    height: 200px;
+    margin: 0 auto;
+}
+.banner_wraps .detail_goods li h4, .banner_wraps .detail_goods li .intr {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    line-height: 20px;
+}
+.banner_wraps .detail_goods li h4 {
+    margin: 0;
+    padding: 0;
+}
+.banner_wraps .detail_goods li .intr {
+    color: #a5a8a5;
+}
+.banner_wraps .detail_goods li .money {
+    color: #e61e3f;
+    font-size: 22px;
+    line-height: 40px;
+}
+.banner_wraps .detail_goods li .money .small {
+    font-size: 14px;
+}
+.banner_wraps .detail_goods li .money .new {
+    width: 100px;
+    display: inline-block;
+}
+.banner_wraps .detail_goods li .money .old {
+    font-size: 14px;
+    color: #3f3f3f;
+    text-decoration: line-through;
+}
+.banner_wraps .detail_goods li .buy_btn {
+    width: 214px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #e61e3f;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    margin-top: 13px;
+}
+
+

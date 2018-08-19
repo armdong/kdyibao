@@ -1,0 +1,49 @@
+.yaowangmen {
+    width: 1070px;
+    border: 1px solid #d9d9d9;
+    margin: 58px auto 78px;
+    padding: 0 60px 70px;
+    font-size: 18px;
+    color: #000;
+}
+.yaowangmen h2 {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    padding: 60px 0;
+}
+.yaowangmen .pic {
+    width: 924px;
+    height: 687px;
+    margin: 24px auto 40px;
+}
+.yaowangmen .text {
+    line-height: 48px;
+}
+.yaowangmen .title {
+    text-align: center;
+    margin: 80px auto 66px;
+}
+.yaowangmen .honors {
+    overflow: hidden;
+}
+.yaowangmen .honors li {
+    width: 245px;
+    height: 210px;
+    padding: 0 11px 16px;
+    font-size: 12px;
+    float: left;
+}
+.yaowangmen .honors li img {
+    width: 245px;
+    height: 170px;
+}
+.yaowangmen .honors li p {
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
