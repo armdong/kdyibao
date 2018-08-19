@@ -6,7 +6,12 @@
         // 注册下拉框
         $('.select2').select2();
 
-
+        // 详情与评价切换
+        $('.right-side .top').on('click', 'li', function(e) {
+            var _index = $(this).index();
+            $(this).addClass('active').siblings().removeClass('active');
+           $(this).parent().siblings('.bottom').find('>li').eq(_index).addClass('active').siblings().removeClass('active');
+        });
     });
 
     // 初始化图片预览功能模块
