@@ -153,3 +153,52 @@
   line-height: 64px;
   font-size: 24px;
 }
+.registerpage .reg-conts .content p [data-toggle] {
+  margin: 10px;
+}
+.registerpage .reg-conts .content p .select2 {
+  width: 150px;
+  height: 64px;
+}
+.registerpage .reg-conts .content p .select2-selection,
+.registerpage .reg-conts .content p .select2-selection__rendered,
+.registerpage .reg-conts .content p .select2-selection__arrow {
+  height: 64px;
+  line-height: 64px;
+}
+/* a file */
+.registerpage .reg-conts .content p .file {
+  position: relative;
+  display: block;
+  float: left;
+  width: 150px;
+  height: 56px;
+  margin-left: 20px;
+  text-align: center;
+  line-height: 56px;
+  border: 1px solid #d9d9d9;
+  background-color: #f6f6f6;
+  font-size: 20px;
+}
+.registerpage .reg-conts .content p .file input {
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0;/*关键点*/
+  filter: alpha(opacity=0);/*兼容ie*/
+  font-size: 100px;/* 增大不同浏览器的可点击区域 */
+  cursor: pointer;
+}
+.registerpage .reg-conts .content p .file:hover {
+  background: #AADFFD;
+  border-color: #78C3F3;
+  color: #004974;
+  text-decoration: none;
+}
+.registerpage .reg-conts .content p .single-select {
+  float: left;
+  margin-left: 10px;
+}
+.registerpage .reg-conts .content p .single-select .select2 {
+  width: 460px;
+}
