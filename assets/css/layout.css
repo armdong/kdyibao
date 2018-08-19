@@ -29,7 +29,8 @@ a:active, a:focus, a:hover, a:link, a:visited {
 table {
     border-collapse: collapse
 }
-input {
+input[type='text'],
+input[type='password']{
     border: none;
     outline: none;
     -webkit-appearance: none
