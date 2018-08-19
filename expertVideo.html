@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>模版页 | 坤达医宝</title>
     <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/plugins/select/css/select2.min.css">
     <link rel="stylesheet" href="assets/css/layout.css">
     <link rel="stylesheet" href="assets/css/expert.css ">
 </head>
@@ -117,102 +118,59 @@
                 </li>
             </ul>
             <div class="content">
-                <h3>我的专家</h3>
-                <div class="expert_list">
-                    <div class="person">
-                        <div class="avatar">
-                            <img src="assets/imgs/avatar_01.png" alt="">
-                        </div>
-                        <p class="name">王教授</p>
-                        <div class="score">
-                            <ul>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                            </ul>
-                            <p>4.8分</p>
-                        </div>
-                        <p class="contact">已有<span>2,569</span>人咨询</p>
-                        <a href="javascript:;" class="chat">咨询</a>
-                        <a href="javascript:;" class="detail">查看简介</a>
+                <h3>专家视频</h3>
+                <div class="filter">
+                    <span class="text">视频类型</span>
+                    <select name="" id="" class="select2">
+                        <option value="zj">针灸</option>
+                        <option value="tn">推拿</option>
+                    </select>
+                    <span class="text">专家名称</span>
+                    <select name="" id="" class="select2">
+                        <option value="zj">张三</option>
+                        <option value="tn">李四</option>
+                    </select>
+                </div>
+                <div class="expert_list expertVideo_list">
+                    <div class="list">
+                        <a href="javascript:;" class="avatar">
+                            <img src="assets/imgs/medicalTraining1.jpg" alt="">
+                        </a>
+                        <p class="name">医学培训</p>
+                        <p class="medical_intr"><span>5.5万人学习</span><span>王医生</span></p>
+                        <a href="javascript:;" class="btn_free">免费</a>
                     </div>
-                    <div class="person">
-                        <div class="avatar">
-                            <img src="assets/imgs/avatar_01.png" alt="">
-                        </div>
-                        <p class="name">王教授</p>
-                        <div class="score">
-                            <ul>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                            </ul>
-                            <p>4.8分</p>
-                        </div>
-                        <p class="contact">已有<span>2,569</span>人咨询</p>
-                        <a href="javascript:;" class="chat">咨询</a>
-                        <a href="javascript:;" class="detail">查看简介</a>
+                    <div class="list">
+                        <a href="javascript:;" class="avatar">
+                            <img src="assets/imgs/medicalTraining1.jpg" alt="">
+                        </a>
+                        <p class="name">医学培训</p>
+                        <p class="medical_intr"><span>5.5万人学习</span><span>王医生</span></p>
+                        <a href="javascript:;" class="btn_free">免费</a>
                     </div>
-                    <div class="person">
-                        <div class="avatar">
-                            <img src="assets/imgs/avatar_01.png" alt="">
-                        </div>
-                        <p class="name">王教授</p>
-                        <div class="score">
-                            <ul>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                            </ul>
-                            <p>4.8分</p>
-                        </div>
-                        <p class="contact">已有<span>2,569</span>人咨询</p>
-                        <a href="javascript:;" class="chat">咨询</a>
-                        <a href="javascript:;" class="detail">查看简介</a>
+                    <div class="list">
+                        <a href="javascript:;" class="avatar">
+                            <img src="assets/imgs/medicalTraining1.jpg" alt="">
+                        </a>
+                        <p class="name">医学培训</p>
+                        <p class="medical_intr"><span>5.5万人学习</span><span>王医生</span></p>
+                        <a href="javascript:;" class="btn_free">免费</a>
                     </div>
-                    <div class="person">
-                        <div class="avatar">
-                            <img src="assets/imgs/avatar_01.png" alt="">
-                        </div>
-                        <p class="name">王教授</p>
-                        <div class="score">
-                            <ul>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                            </ul>
-                            <p>4.8分</p>
-                        </div>
-                        <p class="contact">已有<span>2,569</span>人咨询</p>
-                        <a href="javascript:;" class="chat">咨询</a>
-                        <a href="javascript:;" class="detail">查看简介</a>
+                    <div class="list">
+                        <a href="javascript:;" class="avatar">
+                            <img src="assets/imgs/medicalTraining1.jpg" alt="">
+                        </a>
+                        <p class="name">医学培训</p>
+                        <p class="medical_intr"><span>5.5万人学习</span><span>王医生</span></p>
+                        <a href="javascript:;" class="btn_free">免费</a>
                     </div>
-                    <div class="person">
-                        <div class="avatar">
-                            <img src="assets/imgs/avatar_01.png" alt="">
-                        </div>
-                        <p class="name">王教授</p>
-                        <div class="score">
-                            <ul>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                            </ul>
-                            <p>4.8分</p>
-                        </div>
-                        <p class="contact">已有<span>2,569</span>人咨询</p>
-                        <a href="javascript:;" class="chat">咨询</a>
-                        <a href="javascript:;" class="detail">查看简介</a>
+                    <div class="list">
+                        <a href="javascript:;" class="avatar">
+                            <img src="assets/imgs/medicalTraining1.jpg" alt="">
+                        </a>
+                        <p class="name">医学培训</p>
+                        <p class="medical_intr"><span>5.5万人学习</span><span>王医生</span></p>
+                        <a href="javascript:;" class="btn_free">免费</a>
                     </div>
                 </div>
             </div>
@@ -326,6 +284,12 @@
 <![endif]-->
 <script src="assets/plugins/jquery.min.js"></script>
 <script src="assets/plugins/template-web.js"></script>
+<script src="assets/plugins/select/js/select2.min.js"></script>
 <script src="assets/js/layout.js"></script>
+<script>
+    $(function() {
+        $('.select2').select2();
+    })
+</script>
 </body>
 </html>

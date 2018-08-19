@@ -1,3 +1,63 @@
+/* 头部 begin */
+.layout__header--main {
+    background: #0cb95f;
+    height: 100px;
+}
+.layout__header--main .wrapper {
+    padding-top: 30px;
+}
+.layout__header--main .wrapper .logo {
+    width: 150px;
+    height: 46px;
+}
+.layout__header--main .wrapper .nav {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+}
+.layout__header--main .wrapper .nav > li {
+    float: left;
+    font-weight: bold;
+}
+.layout__header--main .wrapper .nav > li a {
+    color: #fff;
+    display: block;
+    line-height: 60px;
+    padding: 0 40px;
+}
+.layout__header--main .wrapper .nav > li.set > a, .layout__header--main .wrapper .nav > li.money > a {
+    background: url('../imgs/arow.png') 116px center no-repeat;
+}
+.layout__header--main .wrapper .nav ul {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.65);
+    line-height: 60px;
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+.layout__header--main .wrapper .nav > li:hover ul {
+    display: block;
+}
+.layout__header--main .wrapper .nav ul li {
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.65);
+}
+.layout__header--main .wrapper .search {
+    float: right;
+    width: 434px;
+    margin: 10px 0 0 0;
+}
+.layout__header--main .wrapper .search input {
+    width: 340px;
+    border-color: #c8cacf;
+    border-right: 0;
+}
+.layout__header--main .wrapper .search a {
+    border-color: #c8cacf;
+    background: #f4f4f4;
+    color: #625f5d;
+}
+/* 头部 end */
 .expert_wraps {
     width: 1192px;
     margin: 40px auto 80px;
@@ -114,4 +174,67 @@
     background: linear-gradient(left, #6dd477, #009c0c);
     font-size: 16px;
     color: #fff;
+}
+
+/* 专家视频 */
+.expert_wraps .filter {
+    line-height: 30px;
+    padding-top: 30px;
+}
+.expert_wraps .filter .text {
+    font-size: 16px;
+    margin: 0 10px 0 20px;
+}
+.expert_wraps .filter .select2 {
+    width: 180px !important;
+}
+.expertVideo_list {
+    overflow: hidden;
+}
+.expertVideo_list .list {
+    width: 208px;
+    height: 274px;
+    overflow: hidden;
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+    border-right: none;
+    float: left;
+    margin-bottom: 20px;
+}
+.expertVideo_list .list .avatar {
+    width: 209px;
+    height: 177px;
+    display: block;
+}
+.expertVideo_list .list .avatar img {
+    width: 100%;
+    height: 100%;
+}
+.expertVideo_list .list:nth-of-type(4n) {
+    float: left;
+    border-right: 1px solid #d9d9d9;
+}
+.expertVideo_list .list:last-of-type {
+    float: left;
+    border-right: 1px solid #d9d9d9;
+}
+.expertVideo_list .name {
+    font-size: 20px;
+    line-height: 40px;
+    color: #000;
+}
+.expertVideo_list .medical_intr {
+    line-height: 20px;
+    height: 20px;
+    color: #666;
+}
+.expertVideo_list .medical_intr span:first-of-type{
+    width: 148px;
+    display: inline-block;
+}
+.expertVideo_list .btn_free {
+    text-align: left;
+    display: block;
+    color: #f00;
+    margin: 10px 0;
 }
