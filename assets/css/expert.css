@@ -238,3 +238,44 @@
     color: #f00;
     margin: 10px 0;
 }
+/* 在线咨询 begin */
+.consuluation table {
+    margin: 32px 0;
+    border: 1px solid #ececec;
+}
+.consuluation thead {
+    background: #f5f5f5;
+    border-bottom: 1px solid #ececec;
+}
+.consuluation thead th {
+    height: 34px;
+    text-align: left;
+    padding-left: 14px;
+}
+.consuluation thead th:nth-of-type(1) {
+    width: 150px;
+}
+.consuluation thead th:nth-of-type(2) {
+    width: 260px;
+}
+.consuluation thead th:nth-of-type(3) {
+    width: 506px;
+}
+.consuluation  tbody tr {
+    height: 50px;
+}
+.consuluation  tbody tr td {
+    padding-left: 14px;
+    background: #fff;
+}
+/* 在线咨询 end */
+
+/* 举报中心 begin */
+.reportCenter .text {
+    text-align: center;
+    padding: 90px 0;
+    font-size: 18px;
+    color: #333;
+}
+/* 举报中心 end */
+
