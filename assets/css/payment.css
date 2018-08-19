@@ -1,0 +1,12 @@
+.payment {
+  width: 100%;
+}
+.payment .payment-wrapper {
+  width: 1192px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.payment .payment-status {
+  width: 1152px;
+  margin: 0 auto;
+}

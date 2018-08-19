@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>详情页 | 坤达医宝</title>
+    <title>提交订单 | 坤达医宝</title>
     <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/plugins/select/css/select2.min.css">
-    <link rel="stylesheet" href="assets/plugins/jqzoom/css/jquery.jqzoom.css">
     <link rel="stylesheet" href="assets/css/layout.css">
-    <link rel="stylesheet" href="assets/css/detail.css">
+    <link rel="stylesheet" href="assets/css/payment.css">
 </head>
 <body>
 
@@ -96,129 +94,16 @@
 
     <!-- layout container begin -->
     <div class="layout__container">
-        <div class="detailpage">
-            <div class="product-info clearfix">
-                <!-- preview wrap begin -->
-                <div class="preview-wrap">
-                    <div class="preview">
-                        <a href="assets/imgs/detail/cake_big01.jpg" class="jqzoom" rel="cake">
-                            <img src="assets/imgs/detail/cake_small01.jpg">
-                        </a>
-                    </div>
-                    <div class="thumbs clearfix">
-                        <a href="javascript:;" class="btn btn-prev"></a>
-                        <a href="javascript:;" class="btn btn-next"></a>
-                        <div class="thumblist-wrap">
-                            <ul id="thumblist" class="thumblist clearfix">
-                                <li>
-                                    <a class="zoomThumbActive" href='javascript:;' rel="{gallery: 'cake', smallimage: 'assets/imgs/detail/cake_small01.jpg', largeimage: 'assets/imgs/detail/cake_big01.jpg'}"><img src='assets/imgs/detail/thumbs/cake_thumb01.jpg'></a>
-                                </li>
-                                <li>
-                                    <a href='javascript:;' rel="{gallery: 'cake', smallimage: 'assets/imgs/detail/cake_small02.jpg', largeimage: 'assets/imgs/detail/cake_big02.jpg'}"><img src='assets/imgs/detail/thumbs/cake_thumb02.jpg'></a>
-                                </li>
-                                <li>
-                                    <a href='javascript:;' rel="{gallery: 'cake', smallimage: 'assets/imgs/detail/cake_small03.jpg', largeimage: 'assets/imgs/detail/cake_big03.jpg'}"><img src='assets/imgs/detail/thumbs/cake_thumb03.jpg'></a>
-                                </li>
-                                <li>
-                                    <a href='javascript:;' rel="{gallery: 'cake', smallimage: 'assets/imgs/detail/cake_small04.jpg', largeimage: 'assets/imgs/detail/cake_big04.jpg'}"><img src='assets/imgs/detail/thumbs/cake_thumb04.jpg'></a>
-                                </li>
-                                <li>
-                                    <a href='javascript:;' rel="{gallery: 'cake', smallimage: 'assets/imgs/detail/cake_small05.jpg', largeimage: 'assets/imgs/detail/cake_big05.jpg'}"><img src='assets/imgs/detail/thumbs/cake_thumb05.jpg'></a>
-                                </li>
-                                <li class="last-thumb">
-                                    <a href='javascript:;' rel="{gallery: 'cake', smallimage: 'assets/imgs/detail/cake_small06.jpg', largeimage: 'assets/imgs/detail/cake_big06.jpg'}"><img src='assets/imgs/detail/thumbs/cake_thumb06.jpg'></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+
+        <div class="payment">
+            <div class="payment-wrapper">
+                <div class="payment-status">
+                    <img src="assets/imgs/shopping_step_03_title.jpg" alt="">
                 </div>
-                <!-- preview wrap end -->
-                <div class="intro-info">
-                    <p class="name">络活喜 苯磺酸氨氯地平片 - 辉瑞制药</p>
-                    <p class="clearfix">
-                        <span class="title">价格：</span>
-                        <span class="content price"><i>¥</i>200.00</span>
-                    </p>
-                    <p class="clearfix">
-                        <span class="title">配送至：</span>
-                        <span class="content delivery-address" data-toggle="distpicker">
-                            <select data-province="- 选择省 -" class="select2"></select>
-                            <select data-city="- 选择市 -" class="select2"></select>
-                            <select data-district="- 选择区 -" class="select2"></select>
-                        </span>
-                    </p>
-                    <p class="clearfix">
-                        <span class="title">数量：</span>
-                        <span class="content count clearfix">
-                            <a href="javascript:;" class="btn-minus">-</a>
-                            <input type="text" value="1">
-                            <a href="javascript:;" class="btn-add">+</a>
-                        </span>
-                        <span>(库存15)</span>
-                    </p>
-                    <div class="btns clearfix">
-                        <a href="javascript:;" class="btn-add"><i class="icon-shopping-cart"></i>加入购物车</a>
-                        <a href="javascript:;" class="btn-buy">立即购买</a>
-                    </div>
-                </div>
-            </div>
-            <div class="detail-wrapper clearfix">
-                <div class="left-side">
-                    <div class="shop-box">
-                        <h2>XXX官方旗舰店</h2>
-                        <div class="clearfix">
-                            <a href="javascript:;" class="enter"><i class="icon-enter"></i>进入店铺</a>
-                            <a href="javascript:;" class="collect"><i class="icon-collect"></i>收藏店铺</a>
-                        </div>
-                    </div>
-                    <div class="hot-box">
-                        <h2>XXX官方旗舰店</h2>
-                        <ul>
-                            <li>
-                                <div class="img">
-                                    <img src="assets/imgs/img_hot_product.jpg" alt="">
-                                </div>
-                                <p class="price"><span>¥</span>200</p>
-                                <p class="desc">舒肝颗粒(昆中药) 3g*16袋(昆中药) 舒肝理气，散郁调经。</p>
-                                <a href="javascript:;" class="btn-view">查看详情</a>
-                            </li>
-                            <li>
-                                <div class="img">
-                                    <img src="assets/imgs/img_hot_product.jpg" alt="">
-                                </div>
-                                <p class="price"><span>¥</span>200</p>
-                                <p class="desc">舒肝颗粒(昆中药) 3g*16袋(昆中药) 舒肝理气，散郁调经。</p>
-                                <a href="javascript:;" class="btn-view">查看详情</a>
-                            </li>
-                            <li>
-                                <div class="img">
-                                    <img src="assets/imgs/img_hot_product.jpg" alt="">
-                                </div>
-                                <p class="price"><span>¥</span>200</p>
-                                <p class="desc">舒肝颗粒(昆中药) 3g*16袋(昆中药) 舒肝理气，散郁调经。</p>
-                                <a href="javascript:;" class="btn-view">查看详情</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="right-side">
-                    <ul class="top clearfix">
-                        <li class="active">商品详情</li>
-                        <li>商品评价</li>
-                    </ul>
-                    <ul class="bottom">
-                        <li class="active">
-                            <div class="img">
-                                <img src="assets/imgs/img_detail_01.jpg" alt="">
-                                <img src="assets/imgs/img_detail_02.jpg" alt="">
-                                <img src="assets/imgs/img_detail_03.jpg" alt="">
-                            </div>
-                        </li>
-                        <li>暂无评价</li>
-                    </ul>
-                </div>
+               
             </div>
         </div>
+
     </div>
     <!-- layout container end -->
 
@@ -328,11 +213,7 @@
 <![endif]-->
 <script src="assets/plugins/jquery.min.js"></script>
 <script src="assets/plugins/template-web.js"></script>
-<script src="assets/plugins/select/js/select2.min.js"></script>
-<script src="assets/plugins/distpicker.min.js"></script>
-<script src="assets/plugins/tweenmax/TweenMax.min.js"></script>
-<script src="assets/plugins/jqzoom/js/jquery.jqzoom.js"></script>
 <script src="assets/js/layout.js"></script>
-<script src="assets/js/detail.js"></script>
+<script src="assets/js/payment.js"></script>
 </body>
 </html>
