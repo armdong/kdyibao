@@ -116,6 +116,7 @@
 .category_wraps .expert_recommend {
     width: 250px;
     float: left;
+    overflow: hidden;
 }
 .expert_recommend .title {
     width: 248px;
@@ -195,7 +196,8 @@
 
 .category_wraps .expert_content {
     width: 892px;
-    float: right ;
+    float: right;
+    overflow: hidden;
 }
 .category_wraps .expert_content .person {
     width: 296px;
@@ -266,7 +268,32 @@
     font-size: 18px;
     color: #fff;
 }
-
+.category_paging {
+    width: 1192px;
+    text-align: right;
+}
+.category_paging a {
+    width: 70px;
+    height: 36px;
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid #dbdbdb;
+    margin-left: 6px;
+}
+.category_paging a:nth-of-type(2), .category_paging a:nth-of-type(3) {
+    width: 98px;
+}
+.category_paging span {
+    width: 38px;
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    background: #0cb95f;
+    display: inline-block;
+    color: #fff;
+    margin-left: 6px;
+}
 /* 医学培训 */
 .category_wraps .expert_recommend .recommend_video {
     margin-bottom: 16px;
@@ -328,4 +355,11 @@
     display: block;
     margin: 10px;
     color: #f00;
+}
+/* 第三方 */
+.disanfang_banner, .disanfang_banner img {
+    width: 100%;
+}
+.disanfang_banner {
+    margin-top: 30px;
 }
