@@ -1,0 +1,281 @@
+/* 头部 begin */
+.layout__header--main {
+    background: #0cb95f;
+    height: 100px;
+}
+.layout__header--main .wrapper {
+    padding-top: 30px;
+}
+.layout__header--main .wrapper .logo {
+    width: 150px;
+    height: 46px;
+}
+.layout__header--main .wrapper .nav {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+}
+.layout__header--main .wrapper .nav > li {
+    float: left;
+    font-weight: bold;
+}
+.layout__header--main .wrapper .nav > li a {
+    color: #fff;
+    display: block;
+    line-height: 60px;
+    padding: 0 40px;
+}
+.layout__header--main .wrapper .nav > li.set > a, .layout__header--main .wrapper .nav > li.money > a {
+    background: url('../imgs/arow.png') 116px center no-repeat;
+}
+.layout__header--main .wrapper .nav ul {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.65);
+    line-height: 60px;
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+.layout__header--main .wrapper .nav > li:hover ul {
+    display: block;
+}
+.layout__header--main .wrapper .nav ul li {
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.65);
+}
+.layout__header--main .wrapper .search {
+    float: right;
+    width: 434px;
+    margin: 10px 0 0 0;
+}
+.layout__header--main .wrapper .search input {
+    width: 340px;
+    border-color: #c8cacf;
+    border-right: 0;
+}
+.layout__header--main .wrapper .search a {
+    border-color: #c8cacf;
+    background: #f4f4f4;
+    color: #625f5d;
+}
+/* 头部 end */
+.expert_wraps {
+    width: 1192px;
+    margin: 40px auto 80px;
+    overflow: hidden;
+}
+.expert_wraps .nav {
+    width: 160px;
+    float: left;
+    font-size: 16px;
+}
+.expert_wraps .nav li {
+    line-height: 34px;
+}
+.expert_wraps .nav h4 {
+    background: url('../imgs/expert_nav_arrow.png') left center no-repeat;
+    padding-left: 24px;
+    margin: 0;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.expert_wraps .nav li li {
+    padding-left: 24px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.expert_wraps .content {
+    width: 922px;
+    float: right;
+    border: 2px solid #ececec;
+    padding: 10px 28px;
+}
+.expert_wraps .content h3 {
+    font-size: 24px; 
+    color: #0cb95f;
+    line-height: 64px;
+    border-bottom: 1px solid #ececec;
+    font-weight: normal;
+}
+.expert_list {
+    margin-top: 36px;
+}
+.expert_list .person {
+    width: 228px;
+    height: 344px;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 16px;
+    text-align: center;
+    float: left;
+}
+.expert_list .person {
+    border-right: none;
+}
+.expert_list .person:nth-of-type(4n) {
+    float: left;
+    border-right: 1px solid #d9d9d9;
+}
+.expert_list .person:last-of-type {
+    float: left;
+    border-right: 1px solid #d9d9d9;
+}
+.expert_list .person .avatar {
+    margin-top: 30px;
+}
+.expert_list .person .avatar img {
+    width: 96x;
+    height: 96x;
+    overflow: hidden;
+}
+.expert_list .person .name {
+    margin: 10px 0 0;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333;
+}
+.expert_list .person .score {
+    font-size: 16px;
+    line-height: 30px;
+    color: #666;
+    overflow: hidden;
+}
+.expert_list .person .score ul {
+    float: left;
+    margin: 0 4px 0 52px;
+}
+.expert_list .person .score ul li {
+    float: left;
+    margin-right: 1px;
+}
+.expert_list .person .score ul li img {
+    margin-top: 4px;
+}
+.expert_list .person .score p {
+    float: left;
+}
+.expert_list .person .contact {
+    font-size: 18px;
+    line-height: 30px;
+    color: #333;
+}
+.expert_list .person .contact span {
+    color: #f00;
+}
+.expert_list .person .chat {
+    width: 144px;
+    height: 32px;
+    line-height: 32px;
+    display: block;
+    margin: 14px auto 16px;
+    background: -webkit-linear-gradient(left, #6dd477, #009c0c);
+    background: -o-linear-gradient(left, #6dd477, #009c0c);
+    background: -moz-linear-gradient(left, #6dd477, #009c0c);
+    background: linear-gradient(left, #6dd477, #009c0c);
+    font-size: 16px;
+    color: #fff;
+}
+
+/* 专家视频 */
+.expert_wraps .filter {
+    line-height: 30px;
+    padding-top: 30px;
+}
+.expert_wraps .filter .text {
+    font-size: 16px;
+    margin: 0 10px 0 20px;
+}
+.expert_wraps .filter .select2 {
+    width: 180px !important;
+}
+.expertVideo_list {
+    overflow: hidden;
+}
+.expertVideo_list .list {
+    width: 208px;
+    height: 274px;
+    overflow: hidden;
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+    border-right: none;
+    float: left;
+    margin-bottom: 20px;
+}
+.expertVideo_list .list .avatar {
+    width: 209px;
+    height: 177px;
+    display: block;
+}
+.expertVideo_list .list .avatar img {
+    width: 100%;
+    height: 100%;
+}
+.expertVideo_list .list:nth-of-type(4n) {
+    float: left;
+    border-right: 1px solid #d9d9d9;
+}
+.expertVideo_list .list:last-of-type {
+    float: left;
+    border-right: 1px solid #d9d9d9;
+}
+.expertVideo_list .name {
+    font-size: 20px;
+    line-height: 40px;
+    color: #000;
+}
+.expertVideo_list .medical_intr {
+    line-height: 20px;
+    height: 20px;
+    color: #666;
+}
+.expertVideo_list .medical_intr span:first-of-type{
+    width: 148px;
+    display: inline-block;
+}
+.expertVideo_list .btn_free {
+    text-align: left;
+    display: block;
+    color: #f00;
+    margin: 10px 0;
+}
+/* 在线咨询 begin */
+.consuluation table {
+    margin: 32px 0;
+    border: 1px solid #ececec;
+}
+.consuluation thead {
+    background: #f5f5f5;
+    border-bottom: 1px solid #ececec;
+}
+.consuluation thead th {
+    height: 34px;
+    text-align: left;
+    padding-left: 14px;
+}
+.consuluation thead th:nth-of-type(1) {
+    width: 150px;
+}
+.consuluation thead th:nth-of-type(2) {
+    width: 260px;
+}
+.consuluation thead th:nth-of-type(3) {
+    width: 506px;
+}
+.consuluation  tbody tr {
+    height: 50px;
+}
+.consuluation  tbody tr td {
+    padding-left: 14px;
+    background: #fff;
+}
+/* 在线咨询 end */
+
+/* 举报中心 begin */
+.reportCenter .text {
+    text-align: center;
+    padding: 90px 0;
+    font-size: 18px;
+    color: #333;
+}
+/* 举报中心 end */
+

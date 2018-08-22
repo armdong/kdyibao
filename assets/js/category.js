@@ -24,4 +24,35 @@ $(function() {
         $('.page_number').text(pageNum + '/' + pageTotal);
     });
     // 翻页 end
+
+    // 底部翻页 begin
+    var pagingNum = 1;// 当前页
+    var pagingTotal = 10;// 总页码
+    $('.category_paging').on('click', 'a', function() {
+        if($(this).hasClass('first')) {
+            pagingNum = 1;
+            $(this).siblings('span').text(pagingNum);
+        }
+        if($(this).hasClass('prev')) {
+            pagingNum--;
+            if(pagingNum <= 1) {
+                pagingNum = 1;
+            }
+            $(this).siblings('span').text(pagingNum);
+        }
+        if($(this).hasClass('next')) {
+            pagingNum++;
+            if(pagingNum >= pagingTotal) {
+                pagingNum = pagingTotal;
+            }
+            $(this).siblings('span').text(pagingNum);
+        }
+        if($(this).hasClass('last')) {
+            pagingNum = pagingTotal;
+            $(this).siblings('span').text(pagingNum);
+        }
+    });
+
+
+    // 底部翻页 end
 });

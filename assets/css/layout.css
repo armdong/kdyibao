@@ -163,7 +163,7 @@ input[type='password']{
 .layout__header--main .search ul {
     width: 100%;
     margin-top: 10px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .layout__header--main .search li {
     display: inline-block;

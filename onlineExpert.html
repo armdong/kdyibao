@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>中医专家 | 坤达医宝</title>
+    <title>模版页 | 坤达医宝</title>
     <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/plugins/select/css/select2.min.css">
     <link rel="stylesheet" href="assets/css/layout.css">
-    <link rel="stylesheet" href="assets/css/category.css">
+    <link rel="stylesheet" href="assets/css/expert.css ">
 </head>
 <body>
 
@@ -17,9 +16,6 @@
 
     <!-- layout header begin -->
     <div class="layout__header">
-        <div class="layout__header--ad-banner">
-            <img src="assets/imgs/header_ad_banner.jpg" alt="ad banner">
-        </div>
         <div class="layout__header--status-bar">
             <div class="wrapper clearfix">
                 <div class="fl">
@@ -42,50 +38,30 @@
                 <div class="wrapper">
                     <div class="top clearfix">
                         <a class="logo" href="javascript:;">
-                            <img src="assets/imgs/logo.png" alt="logo">
+                            <img src="assets/imgs/logo_white.png" alt="logo">
                         </a>
-                        <div class="search">
-                            <div class="box clearfix">
-                                <input type="text" class="txt-search" placeholder="请输入药品名" />
-                                <a class="btn-search" href="javascript:;">搜索</a>
-                            </div>
-                            <ul class="clearfix">
-                                <li class="active"><a href="javascript:;">拜阿司匹林</a></li>
-                                <li class="active"><a href="javascript:;">补血</a></li>
-                                <li><a href="javascript:;">999</a></li>
-                                <li class="active"><a href="javascript:;">片仔癀</a></li>
-                                <li><a href="javascript:;">妈富隆</a></li>
-                                <li class="active"><a href="javascript:;">阿胶</a></li>
-                                <li><a href="javascript:;">金戈</a></li>
-                            </ul>
-                        </div>
-                        <div class="shopping-cart">
-                            <span class="icon__shopping-cart"></span>
-                            <a href="javascript:;">我的购物车<span>0</span></a>
-                        </div>
-                    </div>
-                    <div class="bottom clearfix">
-                        <ul class="category-tree">
-                            <li>
-                                <a class="all" href="javascript:;">全部商品分类</a>
-                                <ul class="sub-category">
-                                    <li><a class="ylqx" href="javascript:;">医疗器械</a></li>
-                                    <li><a class="cycy" href="javascript:;">常用草药</a></li>
-                                    <li><a class="mjyf" href="javascript:;">民间药方</a></li>
-                                    <li><a class="yxpx" href="javascript:;">医学培训</a></li>
-                                    <li><a class="zyzj" href="javascript:;">中医专家</a></li>
+                        <ul class="nav">
+                            <li><a href="javascript:;">首页</a></li>
+                            <li><a href="javascript:;">个人主页</a></li>
+                            <li class="set">
+                                <a href="javascript:;">账户设置</a>
+                                <ul>
+                                    <li><a href="javascript:;">我的积分</a></li>
+                                    <li><a href="javascript:;">我的消息</a></li>
+                                </ul>
+                            </li>
+                            <li class="money">
+                                <a href="javascript:;">我的资产</a>
+                                <ul>
+                                    <li><a href="javascript:;">我的积分</a></li>
+                                    <li><a href="javascript:;">我的消息</a></li>
                                 </ul>
                             </li>
                         </ul>
-                        <ul class="navigator clearfix">
-                            <li><a href="javascript:;">首页</a></li>
-                            <li><a href="javascript:;">医疗设备</a></li>
-                            <li><a href="javascript:;">医宝海淘</a></li>
-                            <li class="hot"><a href="javascript:;">民间药方</a></li>
-                            <li class="hot"><a href="javascript:;">中医在线</a></li>
-                            <li><a href="javascript:;">坤达教育</a></li>
-                            <li class="new"><a href="javascript:;">药王门</a></li>
-                        </ul>
+                        <div class="search">
+                            <input type="text" class="txt-search" placeholder="药品名称/功效/症状" />
+                            <a class="btn-search" href="javascript:;">搜索</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -95,56 +71,54 @@
 
     <!-- layout container begin -->
     <div class="layout__container">
-        <div class="category">
-            <div class="category_header">
-                <div class="title">
-                    <span class="left">你已选择：</span>
-                    <select name="" id="" class="select2">
-                            <option value="ylsb">医疗设备</option>
-                            <option value="ylsb" selected>中医专家</option>
-                            <option value="cycy">常用草药</option>
-                            <option value="mjyf">民间药方</option>
-                            <option value="yxpx">医学培训</option>
-                    </select>
-                </div>
-                <div class="content">
-                    <div class="list">
-                        <span class="left">按专家分类：</span>
-                        <ul>
-                            <li><a href="javascript:;">神经专家</a></li>
-                            <li><a href="javascript:;">动脉专家</a></li>
-                        </ul>
-                        <select name="" id="" class="select2">
-                            <option value="more">更多</option>
-                        </select>
-                    </div>
-                    <div class="list">
-                        <span class="left">从业资格：</span>
-                        <ul>
-                            <li><a href="javascript:;">1年</a></li>
-                            <li><a href="javascript:;">2年</a></li>
-                        </ul>
-                        <select name="" id="" class="select2">
-                            <option value="more">更多</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-            <div class="category_pager">
-                <div class="sort_btn">
-                    <a class="active" href="javascript:;">综合排序</a>
-                    <a href="javascript:;">资格</a>
-                </div>
-                <div class="pager">
-                    <span class="total">(共731位)</span>
-                    <span class="page_number"></span>
-                    <button id="pager_left"><</button>
-                    <button id="pager_right">></button>
-                </div>
-            </div>
-            <div class="category_wraps">
-                <div class="expert_recommend">
-                    <p class="title">推荐专家</p>
+        <div class="expert_wraps">
+            <ul class="nav">
+                <li>
+                    <h4>我的交易</h4>
+                    <ul>
+                        <li>订单管理</li>
+                        <li>我的专家</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>账户管理</h4>
+                    <ul>
+                        <li>我的积分</li>
+                        <li>我的消息</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>特色业务</h4>
+                    <ul>
+                        <li>在线专家</li>
+                        <li>专家视频</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>我的健康档案</h4>
+                    <ul>
+                        <li>我的处方</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>客服服务</h4>
+                    <ul>
+                        <li>退货换货</li>
+                        <li>我的发票</li>
+                        <li>在线咨询</li>
+                        <li>举报中心</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>设置</h4>
+                    <ul>
+                        <li>个人信息</li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="content">
+                <h3>在线专家</h3>
+                <div class="expert_list">
                     <div class="person">
                         <div class="avatar">
                             <img src="assets/imgs/avatar_01.png" alt="">
@@ -164,27 +138,6 @@
                         <a href="javascript:;" class="chat">咨询</a>
                         <a href="javascript:;" class="detail">查看简介</a>
                     </div>
-                    <div class="person">
-                        <div class="avatar">
-                            <img src="assets/imgs/avatar_01.png" alt="">
-                        </div>
-                        <p class="name">王教授</p>
-                        <div class="score">
-                            <ul>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                                <li><img src="assets/imgs/star.jpg" alt=""></li>
-                            </ul>
-                            <p>4.8分</p>
-                        </div>
-                        <p class="contact">已有<span>2,569</span>人咨询</p>
-                        <a href="javascript:;" class="chat">咨询</a>
-                        <a href="javascript:;" class="detail">查看简介</a>
-                    </div>
-                </div>
-                <div class="expert_content">
                     <div class="person">
                         <div class="avatar">
                             <img src="assets/imgs/avatar_01.png" alt="">
@@ -262,13 +215,6 @@
                         <a href="javascript:;" class="detail">查看简介</a>
                     </div>
                 </div>
-            </div>
-            <div class="category_paging">
-                <a href="javascript:;" class="first">首页</a>
-                <a href="javascript:;" class="prev"><< 上一页</a>
-                <span class="num">1</span>
-                <a href="javascript:;" class="next">下一页 >></a>
-                <a href="javascript:;" class="last">末页</a>
             </div>
         </div>
     </div>
@@ -380,12 +326,6 @@
 <![endif]-->
 <script src="assets/plugins/jquery.min.js"></script>
 <script src="assets/plugins/template-web.js"></script>
-<script src="assets/plugins/select/js/select2.min.js"></script>
-<script src="assets/js/category.js"></script>
-<script>
-    $(function() {
-        $('.select2').select2();
-    })
-</script>
+<script src="assets/js/layout.js"></script>
 </body>
 </html>
