@@ -1,6 +1,17 @@
 (function(window, document, $, undefined) {
 
   $(function() {
+
+    // banner
+    new Swiper('.swiper-container', {
+      speed: 400,
+      autoplay: true,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets'
+      }
+    });
     
     // 首页红包关闭事件
     $('.homepage__hongbao').on('click', '.close', function(e) {
